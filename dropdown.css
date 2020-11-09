@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	padding:0;
+	background:#79d2a6;
+}
+.box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.box select{
+	text-align: center;
+	background:white;
+	color:black;
+	padding:10px;
+	width:250px;
+	font-family: serif;
+	font-size: 20px;
+	border-radius: 4px;
+	height: 50px;
+	border:none;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	-webkit-appearance:button;
+	outline:none;
+}
+.box before{
+	content:'\f358';
+	font-family:"font Awesome 5 free";
+	position:absolute;
+	top:0;
+	right:0;
+	width:50px;
+	height:50px;
+	background:#007ce0;
+}
+.box::hover:before{
+
+}

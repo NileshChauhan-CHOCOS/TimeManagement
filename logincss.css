@@ -1,0 +1,93 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	overflow:auto;
+	position: :relative;
+	font-family: serif;
+	height:100vh;
+	background:linear-gradient(to right,#9c27b0,#8ecdff);  
+}
+.welcome {
+	margin-left: 40%;
+	margin-top:90px;
+	position: relative;
+	height:70px;
+	width:300px;
+	padding: 2px;
+	border-bottom: 2px solid green;
+	color:#00802b;
+	font-family: 'Neuton', serif;
+	font-size: 17px;
+}
+.main ul {
+	margin-right:20px;
+	list-style-type: none;
+	float:right;
+	text-align: center;
+}
+.main ul li{
+	color:white;
+	font-family: serif;
+	padding:12px;
+	display: inline;
+}
+.login-box{
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+}
+.login-box h2{
+	font-family: 'Neuton', serif;
+	float-left;
+	border-bottom:2px solid white;
+	margin-right: 150px;
+	margin-left: 29px;
+	margin-bottom: 30px;
+	padding:13px 0;
+}
+.textbox{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-radius: 4px solid;
+	border-bottom:1px solid #4caf50;
+}
+.textbox i{
+	width:26px;
+	float:left;
+	text-align:center;
+}
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:18px;
+	width :80%;
+	float:left;
+	margin:0 10px;
+}
+button{
+	color: #003399;
+	border: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	margin:0;
+	font-family: 'Neuton', serif;
+	font-size:20px;
+	margin-left:20px;
+	padding:12px;
+	cursor: pointer;
+}
+ .forgot{
+}

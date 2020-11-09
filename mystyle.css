@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif; 
+     /*font-family: 'Raleway', sans-serif; */
+}
+.site-header{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(to right,#0066cc, #33ccff);
+	clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+nav{
+	color:white;
+	width:100%;
+	height:100px;
+	display: flex;
+}
+.logo{
+	width:50%;
+	height:100px;
+}
+.logo h1{
+   line-height:100px;
+   padding-left:50px;
+}
+.menubar{
+	width:50%;
+	height:100px;
+}
+.menubar ul{
+	width:100%;
+	height:100px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center; 
+}
+.menubar ul li{
+	list-style: none;
+	font-size:14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menubar ul li a{
+	color:white;
+	text-decoration: none;
+}
+section{
+	display: flex;
+}
+.left-side{
+	width:45%;
+	height:auto;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.left-side img{
+	margin-left: 40px;
+	width:600px;
+	height:500px;
+	border:none;
+} 
+.right-side{
+	width:55%;
+	height:300px;
+	color:white;
+	text-align:center;
+	margin-top: 80px;
+	padding:40px;
+}
+.right-side h1{
+     font-size:50px; 
+     font-weight: 900px;
+     text-transform: uppercase;
+}
+.right-side p{
+    font-size:1.1rem;
+    padding:30px 0;
+}
+.right-side button{
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    background:linear-gradient(to right,#0066cc, #33ccff);
+    border-radius:4px;
+    padding: 20px 30px;
+    border:none;
+}
+.right-side button:hover{
+	background:linear-gradient(to right, #33ccff,#0066cc);
+	cursor: pointer;
+}
